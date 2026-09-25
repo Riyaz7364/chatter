@@ -1,16 +1,22 @@
-# chatter
+# Chatter - Realtime Chat App (Flutter + Firebase)
 
-A new Flutter project.
+Realtime 1-1 chat application built with Flutter & Firebase.
 
-## Getting Started
+## Features
+- Firebase Auth + Google Sign-In
+- Realtime messaging with Cloud Firestore
+- Image / File sharing (image_picker, file_picker, firebase_storage)
+- Push Notifications (firebase_messaging)
+- Emoji picker, Link previews, Message visibility detection
+- Photo view, File open, Overlay window
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+Flutter, Dart, GetX, Firebase (Auth, Firestore, Storage, Messaging), Google Mobile Ads
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+[Add 2 screenshots here - chat list + chat window]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+flutter pub get
+# Add google-services.json / GoogleService-Info.plist
+flutter run
